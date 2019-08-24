@@ -22,6 +22,7 @@ ExportedObj/
 *.svd
 *.pdb
 *.opendb
+!/Users/yamauchiryoga/Unity/hackthon/Assets/Scripts
 
 # Unity3D generated meta files
 *.pidb.meta

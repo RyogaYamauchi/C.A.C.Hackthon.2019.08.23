@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a22bdd81895a3a448395e2e88a7b595, type: 3}
-  m_Name: New FlexSourceAsset
+  m_Name: FlexSourceAsset
   m_EditorClassIdentifier: 
   m_particles: []
-  m_maxParticles: 1000
+  m_maxParticles: 100
   m_springIndices: 
   m_springCoefficients: []
   m_springRestLengths: []
@@ -28,8 +28,16 @@ MonoBehaviour:
   m_inflatableStiffness: 0
   m_fixedParticles: 
   m_rebuildAsset: 0
-  m_surfaceMesh: {fileID: 0}
+  m_surfaceMesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
   m_meshLocalScale: {x: 1, y: 1, z: 1}
   m_meshTesselation: 0
-  m_nozzlePositions: []
-  m_nozzleDirections: []
+  m_nozzlePositions:
+  - {x: -0.5, y: -0.5, z: -3.0616168e-17}
+  - {x: 0.5, y: 0.5, z: 3.0616168e-17}
+  - {x: 0.5, y: -0.5, z: -3.0616168e-17}
+  - {x: -0.5, y: 0.5, z: 3.0616168e-17}
+  m_nozzleDirections:
+  - {x: 0, y: 6.1232336e-17, z: -1}
+  - {x: 0, y: 6.1232336e-17, z: -1}
+  - {x: 0, y: 6.1232336e-17, z: -1}
+  - {x: 0, y: 6.1232336e-17, z: -1}

@@ -13,7 +13,6 @@ public class GameController : MonoBehaviour
 
     public int Time = 0;
     public int Score = 0;
-    
     void Start()
     {
         StartCoroutine(CountDownTime());
@@ -38,7 +37,6 @@ public class GameController : MonoBehaviour
         var obj = Resources.LoadAsync("Tapioka");
         var instance = (GameObject) Instantiate(obj.asset, SpawnPoint.position, Quaternion.identity);
     }
-
     private void AdditionalScore(int score)
     {
         Score += score;

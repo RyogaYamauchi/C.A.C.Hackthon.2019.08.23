@@ -399,7 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c98aa481050edb4ca1850cb5c2953ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_container: {fileID: 11400000, guid: 6543db6df3d70b240980a241d2661798, type: 2}
+  m_container: {fileID: 0}
   m_particleGroup: -1
   m_selfCollide: 1
   m_selfCollideFilter: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_massScale: 1
   m_drawParticles: 0
   m_recreateActor: 0
-  m_asset: {fileID: 11400000, guid: 74792d320276ae3489664e38901f233a, type: 2}
+  m_asset: {fileID: 0}
   m_lifeTime: 5
   m_startSpeed: 1
   m_isActive: 1
@@ -1072,6 +1072,90 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231216711}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1286512358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_Name
+      value: tsutsu
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.23
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6133703
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.78979546
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5849437
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.9541
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2e37b2595df78c94ea8e508881b336a9,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5849437
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e37b2595df78c94ea8e508881b336a9, type: 3}
 --- !u!1 &1449773357
 GameObject:
   m_ObjectHideFlags: 0
@@ -6624,7 +6708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 793e0ae62b98fe542a8bc346e24e3dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_container: {fileID: 11400000, guid: 6543db6df3d70b240980a241d2661798, type: 2}
+  m_container: {fileID: 0}
   m_particleGroup: -1
   m_selfCollide: 0
   m_selfCollideFilter: 0
@@ -6632,7 +6716,7 @@ MonoBehaviour:
   m_massScale: 1
   m_drawParticles: 0
   m_recreateActor: 0
-  m_asset: {fileID: 11400000, guid: c6d2427937f2e4646971fd6ca13fe57b, type: 2}
+  m_asset: {fileID: 0}
 --- !u!135 &2036345969
 SphereCollider:
   m_ObjectHideFlags: 0

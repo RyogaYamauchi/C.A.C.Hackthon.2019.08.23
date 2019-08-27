@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\admin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -94,7 +94,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="GameController.cs" t="Include" />
           <e p="Main.cs" t="Include" />
+          <e p="ScoreView.cs" t="Include" />
+          <e p="TimeView.cs" t="Include" />
         </e>
       </e>
       <e p="C.A.C.Hackthon.2019.08.23.sln" t="IncludeFlat" />

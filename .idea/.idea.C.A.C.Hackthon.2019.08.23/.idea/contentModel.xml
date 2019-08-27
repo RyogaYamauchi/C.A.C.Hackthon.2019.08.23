@@ -94,6 +94,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="DestoryWithTime4.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="Main.cs" t="Include" />
           <e p="ScoreView.cs" t="Include" />

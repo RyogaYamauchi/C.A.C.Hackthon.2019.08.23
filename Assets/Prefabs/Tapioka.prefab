@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4956537167865760665
+--- !u!1 &3489042731321600191
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4956537167865760647}
-  - component: {fileID: 4956537167865760664}
-  - component: {fileID: 4956537167865760644}
-  - component: {fileID: 4956537167865760645}
-  - component: {fileID: 4956537167865760646}
-  - component: {fileID: 4131525883965339987}
+  - component: {fileID: 1592222219901226669}
+  - component: {fileID: 2783529177781397742}
+  - component: {fileID: 4152944916835834418}
+  - component: {fileID: 6358173514102517732}
+  - component: {fileID: 1982296915964351179}
+  - component: {fileID: 1445128374189490239}
   m_Layer: 0
   m_Name: Tapioka
   m_TagString: Untagged
@@ -21,27 +21,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4956537167865760647
+--- !u!4 &1592222219901226669
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4956537167865760665}
+  m_GameObject: {fileID: 3489042731321600191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.000000059604645, y: 9.2, z: -8.1}
+  m_LocalPosition: {x: -0.13290343, y: 3.4160805, z: 3.4477098}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4956537167865760664
+--- !u!114 &2783529177781397742
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4956537167865760665}
+  m_GameObject: {fileID: 3489042731321600191}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 793e0ae62b98fe542a8bc346e24e3dab, type: 3}
@@ -56,13 +56,13 @@ MonoBehaviour:
   m_drawParticles: 0
   m_recreateActor: 0
   m_asset: {fileID: 11400000, guid: c6d2427937f2e4646971fd6ca13fe57b, type: 2}
---- !u!64 &4956537167865760644
+--- !u!64 &4152944916835834418
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4956537167865760665}
+  m_GameObject: {fileID: 3489042731321600191}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -70,21 +70,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!33 &4956537167865760645
+--- !u!33 &6358173514102517732
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4956537167865760665}
+  m_GameObject: {fileID: 3489042731321600191}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &4956537167865760646
+--- !u!23 &1982296915964351179
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4956537167865760665}
+  m_GameObject: {fileID: 3489042731321600191}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -116,13 +116,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4131525883965339987
+--- !u!114 &1445128374189490239
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4956537167865760665}
+  m_GameObject: {fileID: 3489042731321600191}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe4f721ef6284c2ea279837b0e03f87f, type: 3}

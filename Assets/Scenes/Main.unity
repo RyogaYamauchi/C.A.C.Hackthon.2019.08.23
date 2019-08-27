@@ -422,7 +422,11 @@ MonoBehaviour:
   m_drawParticles: 0
   m_recreateActor: 0
   m_asset: {fileID: 11400000, guid: cec7e2b3a6e2e9547a0780e000417747, type: 2}
+<<<<<<< HEAD
+  m_lifeTime: 5
+=======
   m_lifeTime: 3
+>>>>>>> 49a41d8d049a1b1e6055d4dd634ad95364de4700
   m_startSpeed: 2
   m_isActive: 1
 --- !u!4 &481585505

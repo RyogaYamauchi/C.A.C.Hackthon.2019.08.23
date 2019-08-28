@@ -101,6 +101,7 @@
           <e p="Main.cs" t="Include" />
           <e p="ScoreView.cs" t="Include" />
           <e p="TimeView.cs" t="Include" />
+          <e p="UIView.cs" t="Include" />
         </e>
       </e>
       <e p="C.A.C.Hackthon.2019.08.23.sln" t="IncludeFlat" />

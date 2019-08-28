@@ -11,10 +11,10 @@ namespace DefaultNamespace
             if (other.gameObject.GetComponent<Item>() == null) return;
             Debug.Log("アタッタ！！！！！！！！");
             
-            if (other.gameObject.GetComponent<Item>().Type == "Tapioka")
+            /*if (other.gameObject.GetComponent<Item>().Type == "Tapioka")
             {
                 GameController.Instance.Score += other.gameObject.GetComponent<Item>().Kcal;
-            }
+            }*/
         }
     }
 }

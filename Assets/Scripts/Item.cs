@@ -7,9 +7,5 @@ namespace DefaultNamespace
     {
         public string Type;
         public int Kcal;
-
-        public void OnCollisionEnter(Collision other)
-        {
-        }
     }
 }

@@ -12,6 +12,7 @@ public class UIView : MonoBehaviour
     private void Start()
     {
         GameController.Instance.Start();
+        Time.timeScale = 0.5f;
     }
     public void StartTime()
     {
@@ -34,7 +35,7 @@ public class UIView : MonoBehaviour
             yield return new WaitForSeconds(1.0f);
             GameController.Instance.Time++;
             Updatetime();
-            if (GameController.Instance.Time % 5 ==0)
+            if (GameController.Instance.Time % 1 ==0)
             {
                 StartCoroutine(SpawnTapioka());
             }

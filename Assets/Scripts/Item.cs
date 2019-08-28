@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace DefaultNamespace
 {
@@ -6,6 +7,9 @@ namespace DefaultNamespace
     {
         public string Type;
         public int Kcal;
-        
+
+        public void OnCollisionEnter(Collision other)
+        {
+        }
     }
 }

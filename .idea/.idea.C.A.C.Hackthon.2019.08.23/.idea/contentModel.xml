@@ -934,6 +934,7 @@
           <e p="ScoreView.cs" t="Include" />
           <e p="TimeView.cs" t="Include" />
           <e p="UIView.cs" t="Include" />
+          <e p="vrcamera.cs" t="Include" />
         </e>
         <e p="VRTK" t="Include">
           <e p="Documentation.txt" t="Include" />

@@ -13,9 +13,11 @@ public class GameController : MonoBehaviour
 
     public int Time = 0;
     public int Score = 0;
+    public static GameController Instance;
     void Start()
     {
         StartCoroutine(CountDownTime());
+        Instance = new GameController();
     }
 
     public IEnumerator CountDownTime()

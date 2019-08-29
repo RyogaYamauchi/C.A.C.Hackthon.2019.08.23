@@ -7,11 +7,24 @@ using UnityEngine.UIElements;
 public class GameController
 {
     
-    public Vector3 SpawnPoint;
     [SerializeField] private UIView UIView;
-    
+    [SerializeField] private ScoreView _scoreView;
+    private GameObject SpawnPointObj => UIView.SpawnPointObj;
+    public Vector3 SpawnPoint;
+
     public int Time = 0;
-    public int Score = 0;
+
+    public int Score
+    {
+        get => _score;
+        set
+        {
+            _score = value;
+            _scoreView.UpdateScore();
+        }
+    }
+
+    private int _score = 0;
 
     public static GameController Instance
     {
@@ -24,10 +37,16 @@ public class GameController
     public void Start()
     {
         UIView = GameObject.Find("Canvas").GetComponent<UIView>();
-        var SpawnPointObj = GameObject.Find("SpawnPoint").GetComponent<Transform>();
+       // var SpawnPointwnPointObj = GameObject.Find("SpawnPoint").GetComponent<Transform>();
         SpawnPoint = SpawnPointObj.transform.position;
         Instance = new GameController();
-        UIView.StartTime();
+    }
+
+    public void GameOver()
+    {
+        var a = GameObject.Find("Canvasp");
+        a.GetComponent<ResultView>().Show();
+        //UIView.ResultView.Show();
     }
 
 }

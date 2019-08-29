@@ -7,9 +7,10 @@ namespace DefaultNamespace
     {
         [SerializeField] private Text Text;
 
-        public void SetScoreText(string text)
+        public void UpdateScore()
         {
-            Text.text = text;
+            Text.text = GameController.Instance.Score.ToString();
         }
+        
     }
 }

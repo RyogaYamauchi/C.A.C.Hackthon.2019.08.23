@@ -927,10 +927,12 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ChopStick.cs" t="Include" />
+          <e p="Cup.cs" t="Include" />
           <e p="DestoryWithTime4.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Main.cs" t="Include" />
+          <e p="ResultView.cs" t="Include" />
           <e p="ScoreView.cs" t="Include" />
           <e p="TimeView.cs" t="Include" />
           <e p="UIView.cs" t="Include" />

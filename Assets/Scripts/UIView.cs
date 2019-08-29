@@ -8,6 +8,7 @@ public class UIView : MonoBehaviour
 {
     [SerializeField] private ScoreView _scoreView;
     [SerializeField] public GameObject SpawnPointObj;
+    [SerializeField] public ResultView ResultView;
 
 
     private void Start()
@@ -15,19 +16,6 @@ public class UIView : MonoBehaviour
         GameController.Instance.Start();
         Time.timeScale = 0.5f;
     }
-   
     
-    public void UpdateScore()
-    {
-        _scoreView.SetScoreText(GameController.Instance.Score.ToString());
-    }
 
-   
-   
-    private void AdditionalScore(int score)
-    {
-        GameController.Instance.Score += score;
-        UpdateScore();
-    }
-    
 }

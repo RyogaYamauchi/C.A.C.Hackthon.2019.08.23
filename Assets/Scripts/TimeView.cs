@@ -7,6 +7,7 @@ namespace DefaultNamespace
 {
     public class TimeView : MonoBehaviour
     {
+        private int LimitTime = 10;
         private void Start()
         {
             StartTime();
@@ -37,6 +38,7 @@ namespace DefaultNamespace
             while (true)
             {
                 yield return new WaitForSeconds(1.0f);
+                CheckLimitTime();
                 GameController.Instance.Time++;
                 Updatetime(GameController.Instance.Time);
                 if (GameController.Instance.Time % 3 ==0)
@@ -50,7 +52,16 @@ namespace DefaultNamespace
             var obj = Resources.LoadAsync("Tapioka");
             yield return obj;
             var instance = (GameObject) Instantiate(obj.asset,
-                new Vector3(0.5f,1,-6.8f), Quaternion.identity);
+                new Vector3(0.5f,-0.27f,-4.1f), Quaternion.identity);
         }
+
+        private void CheckLimitTime()
+        {
+            if (GameController.Instance.Time == LimitTime)
+            {
+                GameController.Instance.GameOver();
+            }
+        }
+        
     }
 }
